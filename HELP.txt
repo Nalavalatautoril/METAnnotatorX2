@@ -1,0 +1,19 @@
+METAnnotatorX2 v2.1.7 (2021 May 27)
+
+usage: METAnnotatorX2 -n [name] -s -i [file]                       single-end reads mode
+   or: METAnnotatorX2 -n [name] -p -f [file] -r [file]             paired-end reads mode
+   or: METAnnotatorX2 -n [name] -l -i [file]                       long reads mode
+   or: METAnnotatorX2 -n [name] -y -i [file] -f [file] -r [file]   hybrid reads mode
+
+Arguments:
+   -n			Project name (alphanumerical variable)
+   -t			Threads number (numerical variable)
+   -s			Single reads technology (short reads)
+   -p			Paired reads technology
+   -l			Long reads technology
+   -y			Hybrid reads technology
+   -i                   Input reads single path (to be used in -s or -l or -y mode)
+   -f			Forward reads path (to be used in -p or -y mode)
+   -r			Reverse reads path (to be used in -p or -y mode)
+   -h           	Print Help (this message) and exit
+   -u			Update databases and exit
